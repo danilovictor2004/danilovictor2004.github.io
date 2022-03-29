@@ -10,6 +10,10 @@
     .subtitle {
         font-size: 6rem;
     }
+
+    .social-media li img{
+        max-width: 50px;
+    }
 }
 @media (max-width: 800px) {
     /*--Menu*/
@@ -83,6 +87,10 @@
         margin: 0 auto;
     }
 
+    .social-media li img{
+        width: 50px;
+    }
+
     .experience-description, .qualification-description, .footer-contact{
         font-size: 1.2rem;
         margin-bottom: 40px;
@@ -154,7 +162,6 @@
     }
     
     .social-media li img{
-        height: 40px;
         width: 40px;
     }
 }
