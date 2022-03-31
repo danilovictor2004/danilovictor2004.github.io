@@ -15,6 +15,7 @@
         max-width: 50px;
     }
 }
+
 @media (max-width: 800px) {
     /*--Menu*/
     .menu-mobile {

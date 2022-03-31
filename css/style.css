@@ -117,6 +117,7 @@ img {
 .social-media li a:hover {
     opacity: 1;
 }
+
 /** Experiência */
 .experience {
     display: grid;
