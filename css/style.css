@@ -111,6 +111,11 @@ img {
 .social-media li a {
     display: block;
     padding: 10px 20px;
+    opacity: .7;
+}
+
+.social-media li a:hover {
+    opacity: 1;
 }
 /** Experiência */
 .experience {

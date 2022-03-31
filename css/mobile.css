@@ -87,8 +87,12 @@
         margin: 0 auto;
     }
 
-    .social-media li img{
-        width: 50px;
+    .social-media {
+        gap: 5px;
+    }
+
+    .social-media li a{
+        opacity: 1;
     }
 
     .experience-description, .qualification-description, .footer-contact{
@@ -161,7 +165,11 @@
         gap: 40px;
     }
     
-    .social-media li img{
-        width: 40px;
+    .social-media {
+        gap: 5px;
+    }
+
+    .social-media li a{
+        opacity: 1;
     }
 }
