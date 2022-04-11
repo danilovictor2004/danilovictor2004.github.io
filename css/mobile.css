@@ -88,6 +88,10 @@
         margin: 0 auto;
     }
 
+    .qualification .subtitle {
+        color: #8f8f8f;
+    }
+
     .social-media {
         gap: 5px;
     }
