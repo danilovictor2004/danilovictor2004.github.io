@@ -1,8 +1,11 @@
 const btnMobile = document.querySelector('nav');
 btnMobile.addEventListener('click', () => {
-    btnMobile.classList.toggle('active');
+    console.log(btnMobile.classList.toggle('active'));
 });
 
+addEventListener('scroll', () => {
+    btnMobile.classList.remove('active');
+})
 
 //----Scroll Suave
 const menuItems = document.querySelectorAll('.header-menu a[href^="#"]');
